@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PracticeArtifactID]">
+  <test thread-count="5" name="PracticeArtifactITest(failed)">
+    <classes>
+      <class name="com.practice.tests.HomePageTest">
+        <methods>
+          <include name="verifyhomePageTitleTest"/>
+          <include name="verifyForSalePageLocationTest"/>
+          <include name="teardown"/>
+          <include name="setupHomePage"/>
+        </methods>
+      </class> <!-- com.practice.tests.HomePageTest -->
+    </classes>
+  </test> <!-- PracticeArtifactITest(failed) -->
+</suite> <!-- Failed suite [PracticeArtifactID] -->
